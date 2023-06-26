@@ -1,0 +1,365 @@
+.container {
+  padding: 0 2rem;
+}
+
+.main {
+  min-height: 100vh;
+  padding: 4rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  display: flex;
+  flex: 1;
+  padding: 2rem 0;
+  border-top: 1px solid #eaeaea;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.title a {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+.title a:hover,
+.title a:focus,
+.title a:active {
+  text-decoration: underline;
+}
+
+.title {
+  margin: 0px 0px 2rem 0px;
+  line-height: 1.15;
+  font-size: 4rem;
+  color: #eaeaea;
+  font-weight: 400;
+}
+
+.title,
+.description {
+  text-align: center;
+}
+
+.description {
+  margin: 2rem 0;
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+
+.code {
+  background: #fafafa;
+  /* background: #87c9d7; */
+  border-radius: 5px;
+  padding: 0.75rem;
+  font-size: 1.1rem;
+  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+    Bitstream Vera Sans Mono, Courier New, monospace;
+}
+
+.grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 800px;
+}
+
+.card {
+  margin: 1rem;
+  padding: 1.5rem;
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  max-width: 300px;
+}
+
+.card:hover,
+.card:focus,
+.card:active {
+  color: #0070f3;
+  border-color: #0070f3;
+}
+
+.card h2 {
+  margin: 0 0 1rem 0;
+  font-size: 1.5rem;
+}
+
+.card p {
+  margin: 0;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+/* .logo {
+  height: 1em;
+  margin-left: 0.5rem;
+} */
+
+.bgImage {
+  /* background-image: url("../public/blockchain.jpg"); */
+  background-color: #86cad8;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.logoContainer {
+  position: absolute;
+  top: 20px;
+  left: 50px;
+  z-index: 10;
+}
+
+.connectBtn {
+  width: 100% !important;
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+
+.connectBtnContainer {
+  position: absolute;
+  top: 20px;
+  right: 50px;
+  z-index: 10;
+}
+
+.backBtnContainer {
+  position: absolute;
+  bottom: 20px;
+  right: 50px;
+  z-index: 10;
+}
+
+.address {
+  color: '#fff',
+}
+
+.addressSubstring {
+  font-weight: 'bold',
+}
+
+
+/* Add CSS classes for each style */
+.votingPageContainer {
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 30px;
+}
+
+.votingPaper {
+  width: 40%;
+  margin-top: 115px;
+}
+
+.descriptionText {
+  color: black;
+  /* width: 35%; */
+  font-size: 1.2rem;
+  margin-top: 20px;
+  font-family: inherit;
+  font-weight: 600;
+  line-height: 22px;
+}
+
+.header {
+  background: "#86cad8";
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
+}
+
+.contentSection {
+  width: 100%;
+  border-radius: 10px;
+  padding: 30px;
+  background-color: #5492af;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.votingTitle {
+  display: flex;
+  font-size: 3.5rem;
+  color: #cbd8f5;
+  font-family: '__wheaton_b3a801';
+}
+
+.fieldGroup {
+  display: flex;
+  flex-direction: column;
+  background: #c2e7e0;
+  border-radius: 5px;
+  margin-bottom: 16px;
+  padding: 16px;
+}
+
+.timeGroup {
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+}
+
+.timeField {
+  background: #c2e7e0;
+  padding: 16px;
+  /* 16px is given assuming the MUI theme has 8px as its base unit */
+  border-radius: 5px;
+  width: 45%;
+}
+
+.fieldLabel {
+  margin-bottom: 8px;
+  /* 8px is given assuming the MUI theme has 8px as its base unit */
+  font-size: 1.1rem;
+}
+
+.buttonGroup {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 16px;
+  /* 16px is given assuming the MUI theme has 8px as its base unit */
+}
+
+.yellowButton {
+  background-color: #eca13c !important;
+  color: #fff !important;
+  margin-right: 8px !important;
+  /* 8px is given assuming the MUI theme has 8px as its base unit */
+  border-radius: 10px !important;
+  width: 100% !important;
+  font-family: 'Open Sans' !important;
+  text-transform: none !important;
+  font-weight: bold !important;
+  font-size: larger !important;
+}
+
+.yellowButton:disabled {
+  opacity: 80%;
+}
+
+.yellowButton:hover {
+  background-color: rgba(236, 161, 60, 0.9);
+}
+
+.answerGroup {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 16px;
+  /* 16px is given assuming the MUI theme has 8px as its base unit */
+  /* margin-bottom: 16px; */
+  /* 16px is given assuming the MUI theme has 8px as its base unit */
+}
+
+.commonButton {
+  width: 45%;
+}
+
+.buttonStyle {
+  font-family: 'Open Sans' !important;
+  font-size: initial !important;
+  font-weight: 600 !important;
+  background-color: #eca13c !important;
+}
+
+@media (max-width: 600px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .connectBtnContainer {
+    right: 16px;
+  }
+
+  .backBtnContainer {
+    right: 16px;
+  }
+
+
+  .logoContainer {
+    left: 16px;
+  }
+
+  .bgImage {
+    background-position: left;
+  }
+
+  .votingPaper {
+    width: 100%;
+    margin-top: 115px;
+    padding: 20px
+  }
+
+  .descrptionText {
+    width: 100%;
+    padding: 16px;
+  }
+
+  .timeGroup {
+    margin-bottom: 0px;
+  }
+
+  .timeField {
+    width: 100%;
+    margin-bottom: 16px !important;
+  }
+
+  .title {
+    margin-top: 50px;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  .container {
+    width: 100%;
+    padding-left: 23px;
+    flex-direction: column-reverse;
+  }
+
+  .boxes {
+    width: 100%;
+  }
+
+  .votingPageContainer {
+    padding-bottom: 60px;
+  }
+
+  .votingPaper {
+    width: 50%;
+  }
+
+
+  .contentSection {
+    /* padding-bottom: 70px; */
+  }
+}
+
+@media (max-width: 768px) {
+  .logo {
+    width: 90px !important;
+    height: auto !important;
+  }
+}
